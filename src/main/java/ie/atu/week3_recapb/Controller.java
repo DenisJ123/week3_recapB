@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/storage")
 public class Controller {
     private List<Product> products = new ArrayList<>();
     Service service = new Service();
